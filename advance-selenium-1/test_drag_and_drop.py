@@ -67,39 +67,3 @@ driver.get("http://gamehelp16.github.io/html4dragdrop/dragdrop.html")
 HTML5.drag_and_drop(driver,
                     draggable="img:first",
                     droppable="input:first")
-
-
-class Sikuli:
-
-    __SIKULI = "C:\sikuli\\runsikulix.cmd"
-    __DRAG_AND_DROP_HELPER = "E:\Development\Webdriver-Tutorials\drag_and_drop\drag_and_drop.sikuli"
-
-    @staticmethod
-    def drag_and_drop(draggable, droppable):
-        """
-        :param draggable: STRING, path to image that you want to drag
-        :param droppable: STRING, path to image where you want to drop
-        :return: None
-        """
-        process = subprocess.Popen("{sikuli} -r {script} --args \"{draggable}\" \"{dropabble}\""
-                                   .format(sikuli=Sikuli.__SIKULI, script=Sikuli.__DRAG_AND_DROP_HELPER,
-                                           draggable=draggable, dropabble=droppable),
-                                   stdout=subprocess.PIPE, shell=True)
-        output, error = process.communicate()
-        process.wait()
-        return output, error
-
-
-# ============== Sikuli ==================
-IMG_DIR = "E:\Development\Webdriver-Tutorials\drag_and_drop\drag_and_drop.sikuli"
-# Web to Web
-driver = webdriver.Chrome()
-driver.get("http://gamehelp16.github.io/html4dragdrop/dragdrop.html")
-Sikuli.drag_and_drop(draggable="{}\draggable.png".format(IMG_DIR),
-                     droppable="{}\droppable.png".format(IMG_DIR))
-
-# # Desktop to Web
-driver = webdriver.Chrome()
-driver.get("https://files.fm/")
-Sikuli.drag_and_drop(draggable="{}\desktop.png".format(IMG_DIR),
-                     droppable="{}\web.png".format(IMG_DIR))
