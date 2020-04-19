@@ -27,7 +27,7 @@ def get_csvdata(file_name):
 class TestDdtCsv(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        path = '/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78'
+        path = '/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78'
         cls.driver = webdriver.Chrome(executable_path=path)
 
         cls.driver.maximize_window()

@@ -2,7 +2,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 options=webdriver.ChromeOptions()
-default_path ={"download.default_directory":"/Users/lindafang/PycharmProjects/selenium3forpython2020"}
+default_path ={"download.default_directory":"/Users/lindafang/PycharmProjects/seleniumforpython2020"}
 options.add_experimental_option("prefs",default_path)
 driver = webdriver.Chrome(ChromeDriverManager().install(),chrome_options=options)
 driver.get("https://github.com/lindafanglizhi/restAssuredTest")

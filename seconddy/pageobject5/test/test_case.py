@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "...", "..."))
 
 class PythonOrgSearch(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path=os.path.join("/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78"))
+        self.driver = webdriver.Chrome(executable_path=os.path.join("/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78"))
         self.driver.get("https://cn.bing.com/")
         self.driver.get_screenshot_as_file("1.png")
 
@@ -27,4 +27,4 @@ class PythonOrgSearch(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="/Users/lindafang/PycharmProjects/selenium3forpython2020/seconddy/report"))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="/Users/lindafang/PycharmProjects/seleniumforpython2020/seconddy/report"))

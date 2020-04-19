@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # 自动下载浏览器的驱动程序
-driver = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver")
+driver = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver")
 driver.get("https://smallpdf.com/cn/pdf-to-word")
 driver.maximize_window()
 time.sleep(3)
@@ -40,6 +40,6 @@ change_display='document.querySelector("#f__picker-input").style.display="block"
 driver.execute_script(change_visibility)
 # driver.execute_script(change_display)
 time.sleep(2)
-driver.find_element_by_id("__picker-input").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/DevOps-Tutorial.pdf")
+driver.find_element_by_id("__picker-input").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/DevOps-Tutorial.pdf")
 time.sleep(5)
 # driver.quit()

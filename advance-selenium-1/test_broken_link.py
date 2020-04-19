@@ -1,7 +1,7 @@
 from selenium import webdriver
 import ssl
 import requests
-driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver")
+driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver")
 driver.get("http://www.jianshu.com/")
 list_A=driver.find_elements_by_xpath("//a")
 print(list_A)

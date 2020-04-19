@@ -5,7 +5,7 @@ import time
 
 # 下载 驱动并且打开浏览器
 driver= webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/"
-                                         "selenium3forpython2020/driver/chromedriver")
+                                         "seleniumforpython2020/driver/chromedriver")
 # 打开浏览器输入地址
 driver.get("http://www.51job.com")
 # 在搜索框输入"测试开发" 定位

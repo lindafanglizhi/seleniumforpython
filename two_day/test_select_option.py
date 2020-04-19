@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 import time
 
-path='/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78'
+path='/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78'
 
 # 静默执行
 chrome_option =webdriver.ChromeOptions()

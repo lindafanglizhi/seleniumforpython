@@ -4,7 +4,7 @@ import time
 # 浏览器选项
 options=webdriver.ChromeOptions()
 # 设置下载内容的默认路径
-prefs={"download.default_directory":"/Users/lindafang/PycharmProjects/selenium3forpython2020"}
+prefs={"download.default_directory":"/Users/lindafang/PycharmProjects/seleniumforpython2020"}
 # 将这个路径加入到浏览器选项中
 options.add_experimental_option("prefs",prefs)
 # 自动下载浏览器的驱动程序

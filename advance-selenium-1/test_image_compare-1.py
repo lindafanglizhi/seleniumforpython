@@ -6,11 +6,11 @@ from PIL import Image
 from PIL import ImageChops
 
 ssl._create_default_https_context = ssl._create_unverified_context
-dir1 = "/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1"
+dir1 = "/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1"
 remote_img = "{}/{}".format(dir1, "remote1.png")
 local_img = "{}/{}".format(dir1, "local.png")
 
-driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver")
+driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver")
 
 driver.get("http://www.jianshu.com")
 logo_url = driver.find_element_by_xpath("//img[@alt='Nav logo']").get_attribute("src")

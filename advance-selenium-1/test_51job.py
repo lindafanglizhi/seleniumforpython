@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 # 下载 驱动并且打开浏览器
 driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/"
-                          "selenium3forpython2020/driver/chromedriver")
+                          "seleniumforpython2020/driver/chromedriver")
 
 driver.get("http://www.51job.com")
 driver.find_element_by_id("kwdselectid").send_keys("软件测试工程师")

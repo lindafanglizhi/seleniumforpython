@@ -10,4 +10,4 @@ def get_csv_data(file_name):
         return rows
 
 
-# print(get_csv_data("/Users/lindafang/PycharmProjects/selenium3forpython2020/thirdday/test_data.csv"))
+# print(get_csv_data("/Users/lindafang/PycharmProjects/seleniumforpython2020/thirdday/test_data.csv"))

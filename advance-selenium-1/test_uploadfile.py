@@ -2,7 +2,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()
-default_path = {"download.default_directory": "/Users/lindafang/PycharmProjects/selenium3forpython2020"}
+default_path = {"download.default_directory": "/Users/lindafang/PycharmProjects/seleniumforpython2020"}
 options.add_experimental_option("prefs", default_path)
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 driver.get("http://www.sahitest.com/demo/php/fileUpload.htm")
@@ -14,43 +14,43 @@ change_display='document.querySelector("#file").style.display="block";'
 
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("file").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("file").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 # 第二个
 change_visibility='document.querySelector("#file5").style.visibility="visible";'
 change_display='document.querySelector("#file5").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("file5").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("file5").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 # 第三个
 change_visibility='document.querySelector("#file2").style.visibility="visible";'
 change_display='document.querySelector("#file2").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("file2").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("file2").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 change_visibility='document.querySelector("#file3").style.visibility="visible";'
 change_display='document.querySelector("#file3").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("file3").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("file3").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 # 第四个
 change_visibility='document.querySelector("#file4").style.visibility="visible";'
 change_display='document.querySelector("#file4").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("file4").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("file4").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 # 第五个
 change_visibility='document.querySelector("#files").style.visibility="visible";'
 change_display='document.querySelector("#files").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("files").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("files").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 
 # 第五个fileWdValidation
 change_visibility='document.querySelector("#fileWdValidation").style.visibility="visible";'
 change_display='document.querySelector("#fileWdValidation").style.display="block";'
 driver.execute_script(change_visibility)
 driver.execute_script(change_display)
-driver.find_element_by_id("fileWdValidation").send_keys("/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/selenium-upload.pages")
+driver.find_element_by_id("fileWdValidation").send_keys("/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/selenium-upload.pages")
 
 # 如果是jquery用下面这个
 # change_visibility = '$("#file").css("visibility","visible");'

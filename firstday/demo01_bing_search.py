@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 # 增加--headless参数，可以静默执行
-browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78",chrome_options=chrome_options)
+browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78",chrome_options=chrome_options)
 
 browser.get('http://www.bing.com')
 

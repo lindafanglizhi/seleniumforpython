@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
-driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver")
+driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver")
 driver.get("http://jqueryui.com/resources/demos/sortable/connect-lists.html")
 left2=driver.find_element_by_xpath("//*[@id='sortable1']/li[3]")
 right2=driver.find_element_by_xpath("//*[@id='sortable2']/li[2]")

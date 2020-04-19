@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 option1 = webdriver.ChromeOptions()
 option1.add_argument('disable-infobars')
 driver = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/"
-                                          "selenium3forpython2020/driver/chromedriver",options=option1)
+                                          "seleniumforpython2020/driver/chromedriver",options=option1)
 # driver.get("https://passport.bilibili.com/login")
 # time.sleep(2)
 # driver.find_element_by_id("login-username").send_keys("18145198883")

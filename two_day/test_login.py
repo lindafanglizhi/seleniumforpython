@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-path='/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78'
+path='/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78'
 driver = webdriver.Chrome(executable_path=path)
 
 driver.maximize_window()

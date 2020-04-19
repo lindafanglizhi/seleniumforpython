@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.alert import Alert
 
-path='/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78'
+path='/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78'
 
 
 driver = webdriver.Chrome(executable_path=path)

@@ -7,7 +7,7 @@ import datetime
 class bing_soso_po(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78")
+        cls.browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78")
         cls.browser.get('https://cn.bing.com/')
         cls.browser.maximize_window()
         cls.browser.implicitly_wait(10)

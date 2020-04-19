@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/"
-                          "selenium3forpython2020/driver/chromedriver")
+                          "seleniumforpython2020/driver/chromedriver")
 driver.execute_script("window.location='http://www.baidu.com'")
 print(driver.execute_script("return document.title;"))
 search = driver.execute_script("return document.getElementById('kw');")

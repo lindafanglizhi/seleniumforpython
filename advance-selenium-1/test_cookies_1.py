@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/"
-                          "selenium3forpython2020/driver/chromedriver")
+                          "seleniumforpython2020/driver/chromedriver")
 
 # driver.get("https://www.jianshu.com/sign_in")
 #

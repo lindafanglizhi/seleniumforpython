@@ -3,7 +3,7 @@ import time
 
 # 本节课熟悉浏览器相关操作
 # 常用几种元素定位，包含返回结果是数组的写法
-browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78")
+browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78")
 browser.get("http://172.16.166.129/zentao/")
 # browser.maximize_window()
 # print(browser.current_url)

@@ -4,7 +4,7 @@ import time
 # select类是选择类，主要场景是下拉菜单，获得菜单内容选择项，并进行操作。
 from selenium.webdriver.support.select import Select
 
-browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver78")
+browser = webdriver.Chrome(executable_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver78")
 browser.get("http://172.16.166.129/zentao/")
 browser.find_element_by_id("account").send_keys("admin")
 browser.find_element_by_name("password").send_keys("123456.")

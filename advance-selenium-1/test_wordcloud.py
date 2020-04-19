@@ -83,7 +83,7 @@ if __name__ == "__main__":
         file_path="zhiwei.txt",
         stopwords_path="stopwords.txt",
         template_pic_path="图2.jpg",
-        output_pic_path="/Users/lindafang/PycharmProjects/selenium3forpython2020/advance-selenium-1/res.png"
+        output_pic_path="/Users/lindafang/PycharmProjects/seleniumforpython2020/advance-selenium-1/res.png"
     )
     twc.load()
     twc.count()

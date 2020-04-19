@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/selenium3forpython2020/driver/chromedriver")
+driver = webdriver.Chrome("/Users/lindafang/PycharmProjects/seleniumforpython2020/driver/chromedriver")
 
 # 打开网页
 driver.execute_script("window.location='http://www.baidu.com'")
